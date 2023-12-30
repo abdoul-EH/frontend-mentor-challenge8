@@ -3,59 +3,71 @@ body{
     padding: 0;
     box-sizing: border-box;
     background: url('images/bg-desktop.svg');
+    background-size: contain;
     /* background-color: rgb(82, 2, 157); */
     background-color: hsl(257, 40%, 49%);
     color: white;
 }
 
 .content{
-    margin: 50px;
+    margin: 30px 50px;
+}
+
+.content .title img{
+    height: 40px;
 }
 
 .content .title{
-    margin-left: 50px;
+    /* margin-left: 30px; */
+    height: 35px;
 }
 
 .box{
     display: flex;
     justify-content: space-around;
-    margin-top: 80px;
+    margin-top: 50px;
     
 }
 
-/* .one{
+.one img{
 
-} */
+    
+    width: 650px;
+    height: 450px;
+
+}
 
 .two{
-    width: 600px;
+    width: 450px;
+    margin-left: 30px;
     
 }
 
 .two h1{
-    width: 80%;
-    font-size: 40px;
+    width: 100%;
+    font-size: 38px;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
-    margin-top:50px ;
+    margin-top:40px ;
     /* color: hsl(300, 69%, 71%); */
 }
 
 .two p{
-    font-size: 19px;
+    font-size: 15px;
     font-family: 'Open Sans', sans-serif;
-    width: 90%;
+    width: 95%;
 }
 
 button{
-    padding: 15px;
+    padding: 10px;
     width: 200px;
     border: none;
     border-radius: 30px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 14px;
     color: hsl(257, 40%, 49%);
+    margin-top: 20px;
 
 }
 
@@ -68,10 +80,11 @@ button:hover{
 .social{
     display: flex;
     justify-content: flex-end;
+    margin-top: 10px;
 }
 
 .position-left{
-    margin-right: 120px;
+    margin-right: 60px;
 }
 
 .fb,.x,.ig{
@@ -83,8 +96,8 @@ button:hover{
 
     border: 1px solid white;
     border-radius: 100%;
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
     padding: 10px;
 
 }
